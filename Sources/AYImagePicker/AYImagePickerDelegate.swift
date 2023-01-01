@@ -11,7 +11,7 @@ import Foundation
 import UIKit    
 import SwiftUI
 
-final class AYImagePickerDelegate: NSObject, UINavigationControllerDelegate, UIImagePickerControllerDelegate {
+class AYImagePickerDelegate: NSObject, UINavigationControllerDelegate, UIImagePickerControllerDelegate {
     
     var completion: (UIImage?) -> Void
     
